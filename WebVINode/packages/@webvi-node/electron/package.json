@@ -1,0 +1,12 @@
+{
+    "name": "@webvi-node/electron",
+    "version": "0.1.0",
+    "description": "Electron APIs for webvi-node applications",
+    "author": "Milan Raj (@rajsite)",
+    "license": "MIT",
+    "main": "src/index.js",
+    "dependencies": {
+        "electron": "^10.1.1",
+        "electron-packager": "^15.1.0"
+    }
+}

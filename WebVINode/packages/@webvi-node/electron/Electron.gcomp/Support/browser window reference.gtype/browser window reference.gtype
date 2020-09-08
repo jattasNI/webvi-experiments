@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9E60AF072B89E39325622DAD0E57A959F7280DFFD0DD3225A55CD1AC8B8FAD9579DDB3F38E82279616566E39D5D7C258F7B67F638A29A4921B9FDCE17A0FEC78" Timestamp="1D66792C9F1814F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@f0339782ce4245348acaaf0c922501e8" Id="85e8c22192e448efbb72c44bf6ba16f8" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="9105fa4264f040c5828cb32e4c74ad9b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="29e0d2e154764b7ba937114ab68598e3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="f3f57e738c6a4079b0a81e7fa09c3001" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@f0339782ce4245348acaaf0c922501e8" Id="90f4badb76584bdf8ed414b63ea5a2f0" Name="browser window reference">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="d7d61044cd4746e48c3e88f8c4a740a5" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="b41d301b3d6044a59fba633c02bd7115" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1a31aa2dfeb442cb87e375722725bf1b" Name="browser window reference.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="a6734990ec7e453ea300582bd30df534" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="3017905b46ba4f019f2a2baea877b986" xmlns="http://www.ni.com/MocCommon">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d9a014ccd85048efad5172573a4f9944" IsTabStop="[bool]True" Label="[UIModel]2e3bbcf6b64f4737bef3451c5ae636e7" LabelLinked="[bool]True" Left="[float]525" RefnumType="[Type]@f0339782ce4245348acaaf0c922501e8" TabIndex="[int]0" Top="[float]348" Value="{DataItemBinding Id=90f4badb76584bdf8ed414b63ea5a2f0}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="2e3bbcf6b64f4737bef3451c5ae636e7" LabelOwner="[UIModel]d9a014ccd85048efad5172573a4f9944" Left="[float]525" Text="[string]browser window reference" Top="[float]328" Width="[float]140" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="f0339782ce4245348acaaf0c922501e8">
+			<Attributed AttributedType="@e954979a712f445f984cd718323f5e1e">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e954979a712f445f984cd718323f5e1e">
+			<Composite Id="1" Name="NI.JavaScriptReference" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
